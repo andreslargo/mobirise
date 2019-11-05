@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FourthCap",
-    "currentPage": "index20.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -36,7 +36,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 142,
+    "uniqCompNum": 145,
     "versionPublish": "4.10.7",
     "favicon": "",
     "noImageResize": "",
