@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "FourthCap",
-    "currentPage": "index.html",
+    "currentPage": "index20.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,9 +35,15 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
     "uniqCompNum": 177,
-    "versionPublish": "4.10.7",
+    "versionPublish": "4.12.1",
     "favicon": "",
     "noImageResize": "",
     "screenshot": "screenshot.png",
@@ -3958,11 +3964,11 @@
           "_name": "header1",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x791.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL WIDTH INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">El\tpapel\tque\tdesempeña\tel\testudio\tde\tlas\tciencias\tnaturales\ten\tla\tconstrucción\tdel\tconcepto\tde ingeniería\ty\ten\tla\tformación\tde\tlas\tpersonas\tque\tla\taplican,\tes\tdecir,\tlos\tingenieros,\tes fundamental.\tLa\tingeniería\tnació\ty\tse\tha\tdesarrollado\ta\tpartir\tde\tla\tobservación,\tpor\tparte\tdel hombre,\tdel\tcomportamiento\tde\tla\tnaturaleza,\tla\tcausa\tde\tlos\tdiferentes\tfenómenos\ty\tdel descubrimiento\ty\tel\tentendimiento\tde\tlas\tleyes\ty\tprincipios\tque\tgobiernan\tsu\tfuncionamiento. La\tingeniería,\tcomo\tse\tconoce\ten\tla\tactualidad,\tno\tes\totra\tcosa\tque\tla\trecopilación\tordenada\ty sistemática\tde\ttodos\tlos\tprincipios\ty\tleyes\tsobre\tel\tfuncionamiento\ty\tel\tcomportamiento\tde\tla naturaleza.\tEl\tmérito\tde\tla\tingeniería,\to\tdel\tingeniero,\tconsiste\ten\tel\thecho\tde\tque\tlos ingenieros\testudian\tcon\tcierta\tprofundidad\tlas\tciencias\tpuras\tcomo\tlas\tmatemáticas,\tla\tfísica,&nbsp;<br></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rI9faN2kjL",
+          "_anchor": "header1-4t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header1-4t"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3981,11 +3987,11 @@
           "_name": "header2",
           "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-36-1920x1280.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL SCREEN INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    la\tbiología\to\tla\tquímica;\tsin\tembargo,\tlo\tque\tdistingue\ta\tun\tcientífico\tde\tun\tingeniero\tes\tque\tel primero\testudia\tla\tciencia\ten\tsí,\ten\tbúsqueda\tde\tuna\texplicación\tde\tlas\tcausas\ty\tdel comportamiento\tde\tlas\tfuerzas\ty\tfenómenos\tde\tla\tnaturaleza,\tes\tdecir,\tdescubre,\tinterpreta, deduce,\texplica,\tmientras\tque\tel\tingeniero\ttoma\tlos\tdescubrimientos\tdel\tcientífico,\ty\tlos utiliza\ty\taplica\tpara\tcrear\to\tdiseñar\tsoluciones\tde\tingeniería\ta\tdeterminadas\tnecesidades\to problemáticas,\trelacionadas\tcon\tsu\tdisciplina. Hay\ttres\tconceptos\tde\tlas\tciencias\tnaturales\tque\tson\tfundamentales\tpara\tel\tingeniero\tcuando está\taplicando\tlas\tciencias\tbásicas\ta\tsus\tdiseños\tde\tingeniería: La\tdefinición\tfísica\tde\tla\tenergía\tcomo\t“Capacidad\tpara\trealizar\ttrabajo”,\ty\tde\tla\tforma en\tque\testa\tse\tmanifiesta\ten\tla\tnaturaleza:\tmecánica,\tquímica,\teléctrica,\telectromagnética, nuclear,\tentre\totras. El\tconcepto\tde\tlos\testados\tde\tagregación\tde\tla\tmateria:\tsólido,\tlíquido,\tgaseoso,\tplasma. \n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rI9gqgZZDT",
+          "_anchor": "header2-4u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-4u"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4000,11 +4006,11 @@
           "_name": "content2",
           "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote>En\tla\tfísica\tclásica\tel\testado\tplasma\tno\texiste\tcomo\testado\tindependiente\tde\tagregación\tde\tla materia.\tModernamente\tpara\talgunos\tcientíficos\tes\tun\testado\tindependiente\tde\tlos\tanteriores, mientras\tpara\totros\tes\tun\tgas\tconstituido\tpor\tpartículas\tcargadas\t(iones\tlibres)\ty\tcuya dinámica\tpresenta\tefectos\tcolectivos\tde\tinteracciones\telectromagnéticas. La\tnoción\tde\tla\tconservación\tde\tla\tenergía\tde\tEinstein:\t“La\tenergía,\tno\tse\tcrea\tni\tse destruye,\tsolamente\tse\ttransforma”,\tes\tdecir,\tla\tcreación\tde\tcualquier\tobjeto,\tdispositivo, estructura\to\tproceso,\timplica\tla\ttransformación\tde\tla\tenergía\tde\tun\testado\to\tclase\ta\totro.&nbsp;</blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rI9loSO74n",
+          "_anchor": "content2-4v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content2-4v"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4019,11 +4025,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Las\tciencias\tnaturales\t(física,\tquímica\ty\tbiología),\tentre\totras\tciencias,\tson\tsolo\therramientas de\tla\tingeniería,\tpero\tno\tse\tpueden\tconfundir\tcon\tel\tfin\tde\tla\tingeniería.\tUna\tcosa\tmuy diferente\tes\tque\tlos\tingenieros\taprovechen\tal\tmáximo\tlos\tprocedimientos\tmatemáticos\ty\tque en\tsus\tdiseños\tregistren\tmuchos\tdatos,\tutilicen\tfiguras,\tdesarrollen\tecuaciones\t—a\tveces complicadas—,\tpero\tellos\tsolamente\tlo\thacen\tcomo\tuna\tbuena\tguía\tpara\tsus\trazonamientos, para\tobtener\tpruebas,\tconocer\tlas\tproporciones\tdel\tproblema\ty,\tante\ttodo,\tpara\ttratar\tde cuantificar\tlas\tvariables\tque\tinciden\ten\tun\tproblema;\tpero\ten\tningún\tcaso\tlos\tingenieros pretenden\tque\tlos\tmétodos\ty\tprocedimientos\tmatemáticos\tden\trespuesta\ta\tlos\tproblemas planteados.&nbsp;</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rI9ls3Mp2Y",
+          "_anchor": "content1-4w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-4w"
+          "_params": {}
         }
       ]
     },
